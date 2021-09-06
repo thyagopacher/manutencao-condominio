@@ -1,0 +1,15 @@
+body{
+    font-family: arial;
+}
+h3{
+    font-size: 23px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+table th{
+    background: #aaa;
+    text-align: center;
+}
+table tr{
+    background: #d2d6dc;
+}

@@ -1,0 +1,61 @@
+/*
+@author Thyago Henrique Pacher - thyago.pacher@gmail.com
+*/
+/* 
+    Created on : 17/01/2017, 17:37:29
+    Author     : ThyagoHenrique
+*/
+
+label{
+    text-transform: uppercase;
+}
+
+input, select, textarea{
+    border-top: 0 !important;
+    border-left: 0 !important;
+    border-right: 0 !important;
+}
+
+.fa-file-pdf-o{
+    background: red;
+    color: white;
+}
+
+.fa-file-excel-o{
+    background: green;
+    color: white;
+}
+
+input[type="password"]{
+    background: white !important;
+    cursor: text;
+}
+
+a.btn-primary{
+    color: white !important;
+}
+
+.fa-skype{
+    color: #009EE5;
+}
+
+@media print {
+    .nimprimir{
+        display: none
+    }
+    .fc-event{
+        background-color: #3a87ad;
+    }
+    .fc-event, .fc-event:hover, .ui-widget .fc-event{
+        color: white;
+    }
+    .fc-event-inner {
+        overflow: visible !important;
+    }    
+    .box{
+        border-top: initial;
+    }
+    .ui-widget-content, .ui-widget.ui-widget-content, .ui-widget-header{
+        border: initial;
+    }
+}
